@@ -29,4 +29,17 @@ public class Video {
     public void setCheckOut(boolean checkOut) {
         this.checkOut = checkOut;
     }
+
+    //constructor
+    public Video() {
+        this.videoName = "Shivaji: The Boss";
+        this.rating = 4;
+        this.checkOut = true;
+    }
+
+    public Video(String videoName, int rating) {
+        this.videoName = videoName;
+        this.rating = rating;
+        this.checkOut = true;
+    }
 }
