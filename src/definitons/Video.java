@@ -6,4 +6,16 @@ public class Video {
     private boolean checkOut;
     private int rating;
 
+    public String getVideoName() {
+        return videoName;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public boolean isCheckOut() {
+        return checkOut;
+    }
+
 }
